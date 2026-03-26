@@ -73,7 +73,7 @@ license {
 }
 
 shadowJar {
-    archiveFileName = "spark-fabric-${project.pluginVersion}.jar"
+    archiveFileName = "spark-${project.pluginVersion}-fabric.jar"
     configurations = [project.configurations.shade]
 
     relocate 'net.kyori.adventure', 'me.lucko.spark.lib.adventure'
